@@ -17,10 +17,5 @@ Tunable attribute tagging
 Raw content captures upon match
 System Info
 
-PRE/POST Actions
-Every file that is scanned can be run through PRE and/or POST action:
 
-PRE-Decoding: Functions invoked BEFORE matching is performed, such as base64 decoding or string replacement.
-POST-Decoding: Functions invoked AFTER matching is performed, such as url defanging.
-The idea behind PreDecodeActions functions were to use regex to identify a matching string or pattern, acquire its raw match contents, perform defined decoding/cleanup steps and send the final output back to the analysis engine for re-scanning/processing. A very simple example of this is Base64 decoding. In order to check for any detection logic against a base64 encoded web shell, we must first remove any/all layers of base64. Todo this, we could use the following PreDecodeAction:
 
