@@ -18,7 +18,6 @@ The analyzer has no warranty, use as your own risk.
 - Tunable attribute tagging
 - Raw content captures upon match
 - System Info
-- Tested against the web shell repo: https://github.com/tennc/webshell
  
 #### PRE/POST Actions
 Every file that is scanned can be run through PRE and/or POST action:
