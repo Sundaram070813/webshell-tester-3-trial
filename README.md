@@ -15,7 +15,7 @@ Supports PRE/POST actions which powers layered de-obfuscated and decoding for th
 Tunable regex logic with modular interfaces to easily extend the analyzers capabilities
 Tunable attribute tagging
 Raw content captures upon match
-System Info
+System Info.
 
 
 
