@@ -16,7 +16,4 @@ Tunable regex logic with modular interfaces to easily extend the analyzers capab
 Tunable attribute tagging
 Raw content captures upon match
 System Info.
-
-
-
-.
+end
